@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="./assets/logo.png" alt="WaveConnect Logo" style="height: 200px; object-fit: cover;">
+  <img src="./assets/logo.png" alt="WaveConnect Logo" style="object-fit: cover;">
 </h1>
 
 <p align="center">
