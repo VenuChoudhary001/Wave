@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <!-- choose one -->
+    <script src="https://unpkg.com/feather-icons" defer></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"
+      defer
+    ></script>
+    <script src="https://cdn.tailwindcss.com" defer></script>
+    <script type="module" src="../scripts/index.js" defer></script>
+    <style>
+      #video-grid video {
+        width: 150px;
+        height: 150px;
+        border: 2px solid white;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="flex flex-col">
+
+    
+    <div class="bg-rose-800 py-2 shadow-lg h-[7vh] flex justify-between items-center">
+        <svg width="100" height="35" viewBox="0 0 133 65" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <rect width="133" height="65" fill="url(#pattern0)"/>
+            <defs>
+            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+            <use xlink:href="#image0_109_4" transform="scale(0.0075188 0.0153846)"/>
+            </pattern>
+            <image id="image0_109_4" width="133" height="65" xlink:href="data:image/png;base64,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"/>
+            </defs>
+            </svg>
+            
+    </div>
+    <div
+      id="video-content"
+      class="h-[93vh] w-screen gap-2 grid grid-cols-12 justify-center p-4 bg-neutral-900"
+    >
+      <div
+        class="relative w-full col-span-8 flex flex-col gap-4 top-5 h-[85%] mx-aut rounded-lg overflow-hidden"
+      >
+        <div
+          class="border-white rounded-lg border-[2px] h-[95%] overflow-hidden relative w-full"
+        >
+          <video
+            poster="https://source.unsplash.com/random"
+            autoplay
+            class="w-full absolute h-full object-cover"
+            id="my-video"
+          ></video>
+        </div>
+        <div class="flex items-center justify-center gap-3">
+          <button
+            id="hide-video"
+            class="border-rose-600 flex items-center justify-center border-2 w-14 h-14 rounded-full text-white"
+          >
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-video"><polygon points="23 7 16 12 23 17 23 7"></polygon><rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect></svg>
+          </button>
+          <button
+          id="capture-screen"
+          class="border-rose-600 flex items-center justify-center border-2 w-14 h-14 rounded-full text-white"
+          ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-maximize"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"></path></svg></button>
+        </div>
+      </div>
+      <!-- <div></div> -->
+      <div
+        id="video-grid"
+        class="my-6 col-span-2 w-full flex flex-col items-center gap-4"
+      ></div>
+      <!-- <button class="w-12 h-12  absolute -bottom-6 left-12 rounded-full text-white bg-blue-600">Mute</button> -->
+    </div>
+</div>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "cheese-client",
+  "version": "1.0.0",
+  "main": "./scripts/index.js",
+  "license": "MIT",
+  "source": "./public/meeting.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "dependencies": {
+    "peer": "^1.0.0",
+    "peerjs": "^1.4.7",
+    "socket.io-client": "^4.7.2"
+  },
+  "devDependencies": {
+    "buffer": "^5.5.0||^6.0.0",
+    "parcel": "^2.9.3"
+  }
+}
